@@ -44,7 +44,7 @@ function remainingTasks(tasks){
 <div class="content">
   <form @submit.prevent="addTask">
     <input v-model="newTask" required placeholder="přidat úkol">
-    <button class="Button">Přidat úkol</button>
+    <button class="Button">Přidat úkol!</button>
   </form>
   <div class = "li">
     <ul class="list">
